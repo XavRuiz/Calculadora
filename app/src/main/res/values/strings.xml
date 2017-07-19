@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="mensaje1">Introduzca el numero1</string>
+    <string name="mensaje2">Introduzca el numero2</string>
+    <string name="calcular">sumar</string>
+    <string name="resultado">0</string>
+</resources>
