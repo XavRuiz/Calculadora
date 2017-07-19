@@ -22,18 +22,40 @@
         android:hint="@string/mensaje2"
         android:inputType="number"
         />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suma"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resta"
+            />
+
+    </RadioGroup>
     <Button
         android:id="@+id/bt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/calcular"
+        android:onClick="calcular"
         />
     <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/resultado"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:text="0"
         />
 
 </LinearLayout>
